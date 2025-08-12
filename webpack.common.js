@@ -9,7 +9,8 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    slider: './src/javascripts/slider.js'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -105,7 +106,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index'] //
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/year2025.html',
+      filename: './year2025.html',
+      chunks: ['index', 'slider']
     })
 
     // Article
