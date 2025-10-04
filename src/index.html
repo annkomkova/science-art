@@ -1,18 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Главная</title>
   </head>
-  <body>
-    <h1>Главная</h1>
+  <body class="popup hvrCard">
+    <!-- <div class="gradient">
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur
+              in="SourceGraphic"
+              stdDeviation="10"
+              result="blur"
+            />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+              result="goo"
+            />
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+        </defs>
+      </svg>
+      <div class="gradients-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="interactive"></div>
+      </div>
+    </div> -->
+    <!-- <div class="logo"></div> -->
+    <div id="page-container">
+      <div id="logo">Loading...</div>
+    </div>
 
-    <h2>Категории</h2>
-    <ul>
-      <li><a href="pages/articles.html">Статьи</a></li>
-      <li><a href="pages/tests.html">Тесты</a></li>
-      <li><a href="pages/dictionary.html">Словарь</a></li>
-    </ul>
+    <div id="wrapper">
+      <header>
+        <nav></nav>
+      </header>
+
+      <section></section>
+
+      <section id="projects">
+        <div class="project" href="pages/L-SH-2025.html">
+          <div class="projectIMG"></div>
+          <div class="projectInfo">
+            <div><p class="progectTag">июль 2025</p></div>
+            <h2>Летняя Школа <br />на Волге 2025</h2>
+            <p class="projectDescription">
+              В программе схемотехника, развитие креативности и навыков
+              программирования, основы дизайна и копирайтинга, mapping.
+            </p>
+            <p>→ → → → → → → → → → → → → → → → → → → → → →</p>
+          </div>
+        </div>
+
+        <a class="project" href="pages/L-SH-2024.html">
+          <div class="projectIMG"></div>
+          <div class="projectInfo">
+            <div><p class="progectTag">июль 2024</p></div>
+            <h2>Летняя Школа <br />на Волге 2024</h2>
+            <p class="projectDescription">
+              Изучали генеративный дизайн, современное искусство, искусственный
+              интеллект.
+            </p>
+            <p>→ → → → → → → → → → → → → → → → → → → → → →</p>
+          </div>
+        </a>
+      </section>
+
+      <footer></footer>
+    </div>
   </body>
 </html>

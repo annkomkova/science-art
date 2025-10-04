@@ -1,15 +1,139 @@
+html {
+  font-size: calc(1vw / 14.4);
+}
 body {
-  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+  /* font-family: 'PT Root UI', Arial, Helvetica, sans-serif; */
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #121212;
+  color: #d8d8d8;
 }
 h1 {
   font-weight: 700;
+  font-size: 48rem;
+  line-height: 56rem;
 }
 h2 {
   font-weight: 500;
+  font-size: 32rem;
+  line-height: 44rem;
 }
 h3 {
   font-weight: 400;
+  font-size: 28rem;
+  line-height: 36rem;
 }
 h4 {
   font-weight: 300;
+  font-size: 24rem;
+  line-height: 28rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p,
+ul,
+ol,
+a {
+  font-size: 18rem;
+  line-height: 24rem;
+}
+.logo {
+  height: 600rem;
+  width: 600rem;
+  position: fixed;
+  left: calc(50% - 300rem);
+  background-position: center;
+  z-index: -1;
+  background-image: url(../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 120rem;
+  padding: 10rem 20rem;
+}
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 60rem;
+}
+.project {
+  background-color: #1e1e1e;
+  border-radius: 60rem;
+  width: 960rem;
+  display: flex;
+  padding: 40rem;
+}
+.project > div {
+  width: 50%;
+}
+.progectTag {
+  font-size: 12rem;
+  padding: 1rem 8rem;
+  background-color: #d8d8d8;
+  border-radius: 10rem;
+  color: #0f6700;
+  display: inline-block;
+  margin-bottom: 80rem;
+}
+.projectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
+.case #wrapper > * {
+  background-color: #1e1e1e;
+  border-radius: 60rem;
+  width: 960rem;
+  display: flex;
+  padding: 40rem;
+  flex-direction: column;
+  gap: 60rem;
+}
+.case h1 {
+  margin-bottom: 60rem;
+}
+#aboutCase p {
+  width: 70%;
+}
+#aboutCase img {
+  height: 48rem;
+}
+.flex {
+  display: flex;
+  gap: 10rem;
+}
+#programCase > div,
+#lectorsCase > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20rem;
+}
+.case .program {
+  width: 44%;
+  color: #121212;
+  background-color: #d8d8d8;
+  padding: 20rem;
+  border-radius: 10rem;
+}
+.case .lector {
+  width: 44%;
+  padding: 20rem;
+  border-radius: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20rem;
+}
+.case .lector img {
+  width: 100%;
+  border-radius: 40rem;
+  filter: grayscale();
+  margin-bottom: 40rem;
 }
