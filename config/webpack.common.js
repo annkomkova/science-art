@@ -1,6 +1,7 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const htmlPages = require('./webpack.pages.js')
+const htmlWebpackPartialsPlugins = require('./webpack.partials.js')
 
 module.exports = {
   entry: './src/javascripts/index.js',
@@ -46,5 +47,9 @@ module.exports = {
       }
     ]
   },
-  plugins: [...htmlPages, new MiniCssExtractPlugin()]
+  plugins: [
+    ...htmlPages,
+    ...htmlWebpackPartialsPlugins,
+    new MiniCssExtractPlugin()
+  ]
 }

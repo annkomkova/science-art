@@ -2,4 +2,26 @@
   html {
     font-size: calc(1vw / 7.8);
   }
+  .project,
+  nav,
+  footer,
+  header,
+  .case #wrapper > * {
+    width: 100%;
+  }
+  nav {
+    padding: 10rem 40rem;
+  }
+  .project {
+    flex-direction: column;
+  }
+  .projectIMG {
+    min-height: 400rem;
+  }
+  .project > div {
+    width: 100%;
+  }
+  #programCase .program {
+    width: 40%;
+  }
 }

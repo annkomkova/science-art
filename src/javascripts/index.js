@@ -255,3 +255,50 @@ function randomLetter(length) {
   }
   return text
 }
+
+// ASCII_saturn()
+function ASCII_saturn() {
+  let art =
+    "<br>\
+                                                                      ..;===+. <br>\
+                                                                .:=iiiiii=+= <br>\
+                                                             .=i))=;::+)i=+, <br>\
+                                                          ,=i);)I)))I):=i=; <br>\
+                                                       .=i==))))ii)))I:i++ <br>\
+                                                     +)+))iiiiiiii))I=i+:' <br>\
+                                .,:;;++++++;:,.       )iii+:::;iii))+i=' <br>\
+                             .:;++=iiiiiiiiii=++;.    =::,,,:::=i));=+' <br>\
+                           ,;+==ii)))))))))))ii==+;,      ,,,:=i))+=: <br>\
+                         ,;+=ii))))))IIIIII))))ii===;.    ,,:=i)=i+ <br>\
+                        ;+=ii)))IIIIITIIIIII))))iiii=+,   ,:=));=, <br>\
+                      ,+=i))IIIIIITTTTTITIIIIII)))I)i=+,,:+i)=i+ <br>\
+                     ,+i))IIIIIITTTTTTTTTTTTI))IIII))i=::i))i=' <br>\
+                    ,=i))IIIIITLLTTTTTTTTTTIITTTTIII)+;+i)+i` <br>\
+                    =i))IIITTLTLTTTTTTTTTIITTLLTTTII+:i)ii:' <br>\
+                   +i))IITTTLLLTTTTTTTTTTTTLLLTTTT+:i)))=, <br>\
+                   =))ITTTTTTTTTTTLTTTTTTLLLLLLTi:=)IIiii; <br>\
+                  .i)IIITTTTTTTTLTTTITLLLLLLLT);=)I)))))i; <br>\
+                  :))IIITTTTTLTTTTTTLLHLLLLL);=)II)IIIIi=: <br>\
+                  :i)IIITTTTTTTTTLLLHLLHLL)+=)II)ITTTI)i= <br>\
+                  .i)IIITTTTITTLLLHHLLLL);=)II)ITTTTII)i+ <br>\
+                  =i)IIIIIITTLLLLLLHLL=:i)II)TTTTTTIII)i' <br>\
+                +i)i)))IITTLLLLLLLLT=:i)II)TTTTLTTIII)i; <br>\
+              +ii)i:)IITTLLTLLLLT=;+i)I)ITTTTLTTTII))i; <br>\
+             =;)i=:,=)ITTTTLTTI=:i))I)TTTLLLTTTTTII)i; <br>\
+           +i)ii::,  +)IIITI+:+i)I))TTTTLLTTTTTII))=, <br>\
+         :=;)i=:,,    ,i++::i))I)ITTTTTTTTTTIIII)=+' <br>\
+       .+ii)i=::,,   ,,::=i)))iIITTTTTTTTIIIII)=+ <br>\
+      ,==)ii=;:,,,,:::=ii)i)iIIIITIIITIIII))i+:' <br>\
+     +=:))i==;:::;=iii)+)=  `:i)))IIIII)ii+' <br>\
+   .+=:))iiiiiiii)))+ii; <br>\
+  .+=;))iiiiii)));ii+ <br>\
+ .+=i:)))))))=+ii+ <br>\
+.;==i+::::=)i=; <br>\
+,+==iiiiii+, <br>\
+`+=+++;` <br>\
+  "
+
+  const saturn = document.querySelector('.saturn')
+
+  saturn.innerHTML = art
+}
