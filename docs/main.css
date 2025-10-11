@@ -364,17 +364,21 @@ nav a:hover {
 
 @media screen and (max-width: 780px) {
   html {
-    font-size: calc(1vw / 7.8);
+    font-size: calc(1vw / 5);
+  }
+  html,
+  body,
+  #wrapper {
+    overflow-x: hidden;
   }
   .project,
-  nav,
   footer,
-  header,
   .case #wrapper > * {
     width: 100%;
   }
+  header,
   nav {
-    padding: 10rem 40rem;
+    width: 90%;
   }
   .project {
     flex-direction: column;
@@ -389,6 +393,3 @@ nav a:hover {
     width: 40%;
   }
 }
-
-
-
